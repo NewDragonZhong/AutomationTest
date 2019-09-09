@@ -1,0 +1,9 @@
+django
+requests
+pymysql
+lxml
+pillow
+docxtpl
+redis
+xlrd
+pandas
