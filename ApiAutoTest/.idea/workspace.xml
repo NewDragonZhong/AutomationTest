@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7682948c-f4f1-4e37-b311-60870e54de0a" name="Default" comment="" />
+    <list default="true" id="7682948c-f4f1-4e37-b311-60870e54de0a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/interface_scripts/baseFunction/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interface_scripts/baseFunction/register_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automationApiTestCaseData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/automationApiTestCaseData.xlsx" afterDir="false" />
+    </list>
     <ignored path="beehive_api_autotest.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,6 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/beehive_api_autotest$Login_test.coverage" NAME="Login_test Coverage Results" MODIFIED="1569810104448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interface_scripts/personCenter" />
     <SUITE FILE_PATH="coverage/beehive_api_autotest$ModifyAccountInformation_test__2_.coverage" NAME="ModifyAccountInformation_test (2) Coverage Results" MODIFIED="1568798824962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../api_autotest/interface_scripts/personCenter" />
     <SUITE FILE_PATH="coverage/beehive_api_autotest_fanliang$ModifyAccountInformation_test.coverage" NAME="ModifyAccountInformation_test Coverage Results" MODIFIED="1568708626652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interface_scripts/task_manage/personCenter" />
     <SUITE FILE_PATH="coverage/beehive_api_autotest_fanliang$beehivelogin_getAdminInfo_test.coverage" NAME="beehivelogin_getAdminInfo_test Coverage Results" MODIFIED="1568613989581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interface_scripts/home_page" />
@@ -27,19 +34,69 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../api_autotest/sendmail.py">
+        <entry file="file://$PROJECT_DIR$/interface_scripts/personCenter/ModifyAccountInformation_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="270">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+              <folding>
+                <element signature="e#166#179#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/interface_scripts/baseFunction/Login_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="32" column="56" selection-start-line="32" selection-end-line="32" selection-end-column="81" />
+              <folding>
+                <element signature="e#160#173#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../api_autotest/interface_scripts/personCenter/ModifyAccountInformation_test.py">
+        <entry file="file://$PROJECT_DIR$/utils/reuse_methods.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="46" column="31" lean-forward="true" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+            <state relative-caret-position="381">
+              <caret line="135" column="26" lean-forward="true" selection-start-line="135" selection-start-column="26" selection-end-line="135" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/rw_excel.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/interface_scripts/baseFunction/appeal_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="900">
+              <caret line="50" column="35" lean-forward="true" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
+              <folding>
+                <element signature="e#162#175#0" expanded="true" />
+                <element signature="e#2159#3173#0" />
+                <element signature="e#3216#4234#0" />
+                <element signature="e#4269#5283#0" />
+                <element signature="e#5324#6340#0" />
+                <element signature="e#6379#7395#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db_config.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -65,7 +122,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
@@ -85,7 +142,6 @@
         <option value="$PROJECT_DIR$/run_tests.py" />
         <option value="$PROJECT_DIR$/interface_scripts/personCenter/ModifyAccountInformation_test.py" />
         <option value="$PROJECT_DIR$/constants.py" />
-        <option value="$PROJECT_DIR$/utils/reuse_methods.py" />
         <option value="$PROJECT_DIR$/../api_autotest/utils/reuse_methods.py" />
         <option value="$PROJECT_DIR$/../api_autotest/utils/TEST.py" />
         <option value="$PROJECT_DIR$/../api_autotest/run_tests.py" />
@@ -100,14 +156,20 @@
         <option value="$PROJECT_DIR$/../api_autotest/constants.py" />
         <option value="$PROJECT_DIR$/../api_autotest/sendmail.py" />
         <option value="$PROJECT_DIR$/../api_autotest/interface_scripts/personCenter/ModifyAccountInformation_test.py" />
+        <option value="$PROJECT_DIR$/interface_scripts/personCenter/Login_test.py" />
+        <option value="$PROJECT_DIR$/interface_scripts/baseFunction/register_test.py" />
+        <option value="$PROJECT_DIR$/interface_scripts/baseFunction/forget_test.py" />
+        <option value="$PROJECT_DIR$/interface_scripts/baseFunction/appeal_test.py" />
+        <option value="$PROJECT_DIR$/interface_scripts/baseFunction/Login_test.py" />
+        <option value="$PROJECT_DIR$/utils/reuse_methods.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="81" />
-    <option name="y" value="82" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="13" />
+    <option name="y" value="32" />
     <option name="width" value="1771" />
-    <option name="height" value="939" />
+    <option name="height" value="1004" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -115,39 +177,40 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="beehive_api_autotest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api_autotest" type="462c0819:PsiDirectoryNode" />
+              <item name="ApiAutoTest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="beehive_api_autotest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api_autotest" type="462c0819:PsiDirectoryNode" />
-              <item name="db_operations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="beehive_api_autotest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api_autotest" type="462c0819:PsiDirectoryNode" />
+              <item name="ApiAutoTest" type="462c0819:PsiDirectoryNode" />
               <item name="interface_scripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="beehive_api_autotest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api_autotest" type="462c0819:PsiDirectoryNode" />
+              <item name="ApiAutoTest" type="462c0819:PsiDirectoryNode" />
+              <item name="interface_scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="baseFunction" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="beehive_api_autotest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ApiAutoTest" type="462c0819:PsiDirectoryNode" />
               <item name="interface_scripts" type="462c0819:PsiDirectoryNode" />
               <item name="personCenter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="beehive_api_autotest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="api_autotest" type="462c0819:PsiDirectoryNode" />
+              <item name="ApiAutoTest" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -157,6 +220,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\GitHub\ApiAutoTest\interface_scripts\baseFunction" />
       <recent name="C:\Users\Administrator\Desktop\项目文件\启元项目\beehive_api_autotest-fanliang\interface_scripts\task_manage\personCenter" />
     </key>
   </component>
@@ -172,7 +236,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ModifyAccountInformation_test (2)">
+  <component name="RunManager" selected="Python.Login_test">
+    <configuration name="Login_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="beehive_api_autotest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Python36\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interface_scripts/personCenter" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="F:\GitHub\ApiAutoTest\interface_scripts\baseFunction\Login_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="ModifyAccountInformation_test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="beehive_api_autotest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -239,28 +325,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="beehivelogin_getAdminInfo_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="beehive_api_autotest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Python36\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interface_scripts/home_page" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interface_scripts/home_page/beehivelogin_getAdminInfo_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="taskAdd_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="beehive_api_autotest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -285,11 +349,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Login_test" />
         <item itemvalue="Python.ModifyAccountInformation_test (2)" />
         <item itemvalue="Python.ModifyAccountInformation_test (1)" />
         <item itemvalue="Python.ModifyAccountInformation_test" />
         <item itemvalue="Python.taskAdd_test" />
-        <item itemvalue="Python.beehivelogin_getAdminInfo_test" />
       </list>
     </recent_temporary>
   </component>
@@ -307,23 +371,26 @@
       <workItem from="1568714379996" duration="1150000" />
       <workItem from="1568769700119" duration="70000" />
       <workItem from="1568797837614" duration="3059000" />
+      <workItem from="1569572987394" duration="2882000" />
+      <workItem from="1569804691445" duration="7741000" />
+      <workItem from="1569834581149" duration="2751000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41329000" />
+    <option name="totallyTimeSpent" value="54703000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="13" y="32" width="1771" height="1004" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13166311" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13676213" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30010834" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26865673" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995037" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -374,135 +441,108 @@
     <entry file="file://$PROJECT_DIR$/interface_scripts/home_page/beehivelogin_getAdminInfo_test.py" />
     <entry file="file://$PROJECT_DIR$/interface_scripts/task_manage/__init__.py" />
     <entry file="file://$PROJECT_DIR$/interface_scripts/task_manage/personCenter/ModifyAccountInformation_test.py" />
-    <entry file="file://$PROJECT_DIR$/../api_autotest/utils/TEST.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../api_autotest/db_config.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../api_autotest/db_operations/__init__.py">
+    <entry file="file://$PROJECT_DIR$/../api_autotest/utils/TEST.py" />
+    <entry file="file://$PROJECT_DIR$/../api_autotest/db_config.ini" />
+    <entry file="file://$PROJECT_DIR$/../api_autotest/db_operations/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/../api_autotest/interface_scripts/personCenter/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/../api_autotest/db_operations/mysql_operations.py" />
+    <entry file="file://$PROJECT_DIR$/../api_autotest/utils/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/../api_autotest/utils/File_func.py" />
+    <entry file="file://$PROJECT_DIR$/../api_autotest/utils/log.py" />
+    <entry file="file://$PROJECT_DIR$/../api_autotest/utils/read_api_data.py" />
+    <entry file="file://$PROJECT_DIR$/../api_autotest/utils/excel_operations.py" />
+    <entry file="file://$PROJECT_DIR$/../api_autotest/utils/requests_beehive.py" />
+    <entry file="file://$PROJECT_DIR$/../api_autotest/utils/requestsPackaging.py" />
+    <entry file="file://$PROJECT_DIR$/../api_autotest/db_operations/api_test_datas.py" />
+    <entry file="file://$PROJECT_DIR$/../api_autotest/utils/reuse_methods.py" />
+    <entry file="file://$PROJECT_DIR$/../api_autotest/interface_scripts/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/../api_autotest/utils/rw_excel.py" />
+    <entry file="file://$PROJECT_DIR$/../api_autotest/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/../api_autotest/constants.py" />
+    <entry file="file://$PROJECT_DIR$/../api_autotest/HTMLTestRunner.py" />
+    <entry file="file://$PROJECT_DIR$/../api_autotest/run_tests.py" />
+    <entry file="file://$PROJECT_DIR$/../api_autotest/sendmail.py" />
+    <entry file="file://$PROJECT_DIR$/../api_autotest/interface_scripts/personCenter/ModifyAccountInformation_test.py" />
+    <entry file="file://$PROJECT_DIR$/interface_scripts/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../api_autotest/interface_scripts/personCenter/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../api_autotest/db_operations/mysql_operations.py">
+    <entry file="file://$PROJECT_DIR$/interface_scripts/personCenter/ModifyAccountInformation_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../api_autotest/utils/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../api_autotest/utils/File_func.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../api_autotest/utils/log.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" selection-start-line="2" selection-end-line="3" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../api_autotest/utils/read_api_data.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../api_autotest/utils/excel_operations.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../api_autotest/utils/requests_beehive.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../api_autotest/utils/requestsPackaging.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" selection-start-line="2" selection-end-line="3" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../api_autotest/db_operations/api_test_datas.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../api_autotest/utils/reuse_methods.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="36" lean-forward="true" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../api_autotest/interface_scripts/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" selection-start-line="2" selection-end-line="3" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../api_autotest/utils/rw_excel.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../api_autotest/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../api_autotest/constants.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../api_autotest/HTMLTestRunner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="373" column="27" selection-start-line="373" selection-start-column="27" selection-end-line="373" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../api_autotest/run_tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="270">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#166#179#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../api_autotest/sendmail.py">
+    <entry file="file://$PROJECT_DIR$/db_config.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="72">
+          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../api_autotest/interface_scripts/personCenter/ModifyAccountInformation_test.py">
+    <entry file="file://$PROJECT_DIR$/interface_scripts/baseFunction/register_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="46" column="31" lean-forward="true" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+        <state relative-caret-position="432">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#160#173#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface_scripts/baseFunction/forget_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="661">
+          <caret line="141" selection-start-line="141" selection-end-line="143" selection-end-column="19" />
+          <folding>
+            <element signature="e#161#174#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface_scripts/baseFunction/appeal_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="50" column="35" lean-forward="true" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
+          <folding>
+            <element signature="e#162#175#0" expanded="true" />
+            <element signature="e#2159#3173#0" />
+            <element signature="e#3216#4234#0" />
+            <element signature="e#4269#5283#0" />
+            <element signature="e#5324#6340#0" />
+            <element signature="e#6379#7395#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface_scripts/baseFunction/Login_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="32" column="56" selection-start-line="32" selection-end-line="32" selection-end-column="81" />
+          <folding>
+            <element signature="e#160#173#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/rw_excel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/reuse_methods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="135" column="26" lean-forward="true" selection-start-line="135" selection-start-column="26" selection-end-line="135" selection-end-column="26" />
         </state>
       </provider>
     </entry>

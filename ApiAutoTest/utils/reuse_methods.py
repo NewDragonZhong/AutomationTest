@@ -133,6 +133,9 @@ class REUSEMETHODS(unittest.TestCase):
 		rwdatas = rw.getRowValue(filename, sheetname, m)
 		return rwdatas
 
+	def getExcelAll(self):
+		pass
+
 	def clearTableData(self, db_name, tableName):
 		# 清空数据
 		db = mysql_operations.DB
