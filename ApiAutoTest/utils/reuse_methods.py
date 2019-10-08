@@ -128,7 +128,7 @@ class REUSEMETHODS(unittest.TestCase):
 		# 获取excel中的第n行数据
 		rw = rw_excel.RW_EXCEL()
 		filename = constants.CONSTANTS().FILE_NAME
-		sheetname = 'automationApiTestCase'
+		sheetname = 'login'
 		m = n  # 接口用例所在行
 		rwdatas = rw.getRowValue(filename, sheetname, m)
 		return rwdatas
