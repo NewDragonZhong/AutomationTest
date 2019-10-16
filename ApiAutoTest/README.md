@@ -1,4 +1,4 @@
-#beehive_api_autotest
+#api_autotest
 
 包含功能:
   * 测试数据初始化，并对数据的插入做了封装。
